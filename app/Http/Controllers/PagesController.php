@@ -12,6 +12,10 @@ class PagesController extends Controller
 {
     public function index()
     {
-        return inertia('Pages/index');
+        return inertia('Home');
     }
+    // public function index()
+    // {
+    //     return inertia('Pages/index');
+    // }
 }
