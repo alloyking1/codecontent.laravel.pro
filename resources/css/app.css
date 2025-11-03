@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    /* codecontent brand colors - simple & clean */
+
+    /* Blue (#1c3f60) variations */
+    --color-blue-light: #2a5a85;
+    /* 20% lighter */
+    --color-blue: #1c3f60;
+    /* Main blue */
+    --color-blue-dark: #14324c;
+    /* 20% darker */
+
+    /* Gray (#b4b4b4) variations */
+    --color-gray-light: #e0e0e0;
+    /* Lighter gray */
+    --color-gray: #b4b4b4;
+    /* Main gray */
+    --color-gray-dark: #888888;
+    /* Darker gray */
+
+    /* Core colors */
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    /* Semantic aliases for easy use */
+    --color-primary: #1c3f60;
+    /* Main blue */
+    --color-primary-light: #2a5a85;
+    --color-primary-dark: #14324c;
+
+    --color-neutral: #b4b4b4;
+    /* Main gray */
+    --color-neutral-light: #e0e0e0;
+    --color-neutral-dark: #888888;
+
+    /* Custom border radius */
+    --radius-4xl: 2rem; }
