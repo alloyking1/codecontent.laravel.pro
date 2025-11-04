@@ -14,8 +14,8 @@ class PagesController extends Controller
     {
         return inertia('Home');
     }
-    // public function index()
-    // {
-    //     return inertia('Pages/index');
-    // }
+    public function allTools()
+    {
+        return inertia('ToolsDirectory/Index');
+    }
 }

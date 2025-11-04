@@ -18,6 +18,7 @@ use App\Http\Controllers\PagesController;
 
 Route::prefix('/')->group(function () {
     Route::get('/',[PagesController::class, 'index'])->name('home');
+    Route::get('/all-tools',[PagesController::class, 'allTools'])->name('all-tools');
 });
 
 Route::get('/dashboard', function () {

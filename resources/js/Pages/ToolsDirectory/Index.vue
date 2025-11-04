@@ -8,16 +8,18 @@ import PagesLayout from '@/Layouts/PagesLayout.vue';
 import LandingHero from '@/Components/Pages/Sections/LandingHero.vue';
 import LandingVideoIntro from '@/Components/Pages/Sections/LandingVideoIntro.vue';
 import LandingAgency from '@/Components/Pages/Sections/LandingAgency.vue';
+import DirectoryIndexHero from '@/Pages/ToolsDirectory/Sections/DirectoryIndexHero.vue';
 </script>
 
 <template>
     <PagesLayout>
         <div class="">
-            <LandingHero />
+            <DirectoryIndexHero />
+            <!-- <LandingHero />
             <LandingAgency />
             <div class="bg-blue">
                 <LandingVideoIntro />
-            </div>
+            </div> -->
 
         </div>
     </PagesLayout>
